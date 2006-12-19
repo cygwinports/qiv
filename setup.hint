@@ -1,0 +1,4 @@
+category: Graphics
+requires: cygwin glib gtk+ imlib libX11_6
+sdesc: "Quick Image Viewer"
+ldesc: "Quick Image Viewer is a small and fast gdk_imlib image viewer"
