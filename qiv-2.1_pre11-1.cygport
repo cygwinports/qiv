@@ -1,0 +1,18 @@
+DESCRIPTION="Quick Image Viewer"
+HOMEPAGE="http://www.klografx.net/qiv/"
+SRC_URI="http://www.klografx.net/qiv/download/${P/_/-}.tgz"
+SRC_DIR="${P/_/-}"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake GTD_XINERAMA=
+}
+
+src_install() {
+	cd ${B}
+	dobin qiv.exe
+	doman qiv.1
+
+	dodoc README.*
+}

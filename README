@@ -3,7 +3,7 @@ qiv
 Quick Image Viewer based on gdk_imlib
 
 Runtime requirements:
-  cygwin-1.5.22-1
+  cygwin-1.5.24-2
   glib-1.2.10-3
   gtk+-1.2.10-2
   imlib-1.9.15-1
@@ -11,10 +11,10 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.22-1
+  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.7-1
-  gcc-core-3.4.4-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
   make-3.81-1
 
 Canonical homepage:
@@ -23,32 +23,35 @@ Canonical homepage:
 -------------------------------------------
 
 Build instructions:
-  unpack qiv-2.0-1-src.tar.bz2
+  unpack qiv-2.1_pre11-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./qiv-2.0-1.cygport all
+  cygport ./qiv-2.1_pre11-1.cygport all
 
 This will create:
-  /usr/src/qiv-2.0-1-src.tar.bz2
-  /usr/src/qiv-2.0-1.tar.bz2
+  /usr/src/qiv-2.1_pre11-1-src.tar.bz2
+  /usr/src/qiv-2.1_pre11-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/qiv.exe
-  /usr/share/doc/Cygwin/qiv-2.0.README
-  /usr/share/doc/qiv-2.0/README
-  /usr/share/doc/qiv-2.0/README.CHANGES
-  /usr/share/doc/qiv-2.0/README.COPYING
-  /usr/share/doc/qiv-2.0/README.INSTALL
-  /usr/share/doc/qiv-2.0/README.TODO
+  /usr/share/doc/Cygwin/qiv-2.1_pre11.README
+  /usr/share/doc/qiv-2.1_pre11/README
+  /usr/share/doc/qiv-2.1_pre11/README.CHANGES
+  /usr/share/doc/qiv-2.1_pre11/README.COPYING
+  /usr/share/doc/qiv-2.1_pre11/README.INSTALL
+  /usr/share/doc/qiv-2.1_pre11/README.TODO
   /usr/share/man/man1/qiv.1.gz
 
 ------------------
 
 Port Notes:
+
+----- version 2.1_pre11-1 -----
+Version bump.
 
 ----- version 2.0-1 -----
 Version bump.
