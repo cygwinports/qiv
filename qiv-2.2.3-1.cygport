@@ -14,4 +14,4 @@ src_install() {
 	dobin qiv.exe
 	doman qiv.1
 }
-DOCS="README.COPYING README.TODO"
+DOCS="Changelog README.COPYING README.TODO"
