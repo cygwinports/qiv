@@ -1,4 +1,9 @@
-DESCRIPTION="Quick Image Viewer"
+NAME="qiv"
+VERSION=2.2.4
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="Quick Image Viewer"
+DESCRIPTION="Quick Image Viewer is a small and fast Imlib2-based image viewer"
 HOMEPAGE="http://www.spiegl.de/qiv/"
 SRC_URI="http://www.spiegl.de/qiv/download/${P/_/-}.tgz"
 SRC_DIR="${P/_/-}"

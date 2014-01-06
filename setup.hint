@@ -1,4 +1,0 @@
-category: Graphics
-requires: file libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libImlib2_1 libpango1.0_0 libX11_6 libXinerama1
-sdesc: "Quick Image Viewer"
-ldesc: "Quick Image Viewer is a small and fast GdkPixbuf image viewer"
